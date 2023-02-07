@@ -1,0 +1,15 @@
+If you wanna change the last commit 
+lets say u change index.html file
+and you have written the command
+    # git add index.html
+    # git commit -m "change index 1"
+    or 
+    # git commit -am "change index 1"
+
+and now when u type
+    # git logs
+note the sha value of the last commit
+
+lets say what you have commited is wrong or you want to change it
+for that what you can do is write 
+    # git commit --amend -m "last message is changed to this one"

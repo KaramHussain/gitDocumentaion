@@ -1,0 +1,13 @@
+lets say we have added a file and its in staging tree and we 
+want that to roll back how will we do that?
+for example we have a file index.html and i did some changes
+now i want to add in a staging tree
+        git add index.html
+        .. this command will add the index.html in the staging tree
+
+now we want to unstage it 
+for what we have the command
+        git reset head index.html
+        .. with this command the index.html will be unstaged
+
+we can say that its the opposite of the git add index.html

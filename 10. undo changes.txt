@@ -1,0 +1,6 @@
+# when you are working on a file and you accidently delete a file 
+and you saved the file and then closed the editor but note you havent 
+commit the changes for that you can use the command    
+    * git checkout -- index.html 
+    ... what -- in above command do is that it tell look
+        in the currect branch and get that index.html file
